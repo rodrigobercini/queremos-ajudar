@@ -53,21 +53,6 @@ def search_reply():
 
 search_reply()
 
-# Retweet ?
-
-# if True: 
-#     for tweet in tweepy.Cursor(api.search, search).items(numberOfTweets):
-#         try:
-#             #Retweet
-#             tweet.retweet()
-#             print('Retweeted the tweet')   
-
-#         except tweepy.TweepError as e:
-#             print(e.reason)
-
-#         except StopIteration:
-#             break
-
 # Favorite tweet
 
 # for tweet in tweepy.Cursor(api.search, search).items(numberOfTweets):
